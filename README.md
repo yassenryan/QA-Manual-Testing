@@ -43,4 +43,3 @@ Each folder represents a **separate testing project**, and contains its own docu
 - No real user data or confidential information is used.
 - This repository focuses on **manual testing only**. 
 
----
