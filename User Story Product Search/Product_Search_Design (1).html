@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+        .search-bar {
+            width: 50%;
+            position: relative;
+        }
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search-bar button {
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+        .search-results {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .product-card {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-card .product-name {
+            font-weight: bold;
+        }
+        .product-card .product-price {
+            color: #4CAF50;
+            margin-top: 5px;
+        }
+        .product-card .product-description {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="search-container">
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search for products...">
+        <button onclick="searchProducts()">Search</button>
+    </div>
+</div>
+
+<div class="search-results" id="search-results">
+    <!-- Search results will be displayed here -->
+</div>
+
+<script>
+    function searchProducts() {
+        const searchTerm = document.getElementById('search-input').value;
+        const resultsContainer = document.getElementById('search-results');
+        resultsContainer.innerHTML = '';
+
+        if (searchTerm === '') {
+            alert('Please enter a search term');
+            return;
+        }
+
+        // Sample data for demonstration
+        const products = [
+            { name: 'Product 1', price: '$10', description: 'Description for product 1', image: 'https://via.placeholder.com/150' },
+            { name: 'Product 2', price: '$20', description: 'Description for product 2', image: 'https://via.placeholder.com/150' },
+            // Add more sample products as needed
+        ];
+
+        const filteredProducts = products.filter(product => product.name.toLowerCase().includes(searchTerm.toLowerCase()));
+
+        if (filteredProducts.length === 0) {
+            resultsContainer.innerHTML = '<p>No products found</p>';
+            return;
+        }
+
+        filteredProducts.forEach(product => {
+            const productCard = document.createElement('div');
+            productCard.classList.add('product-card');
+            productCard.innerHTML = `
+                <img src="${product.image}" alt="${product.name}">
+                <div class="product-name">${product.name}</div>
+                <div class="product-price">${product.price}</div>
+                <div class="product-description">${product.description}</div>
+            `;
+            resultsContainer.appendChild(productCard);
+        });
+    }
+</script>
+
+</body>
+</html>

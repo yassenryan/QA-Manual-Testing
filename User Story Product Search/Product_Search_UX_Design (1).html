@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search UX Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background-color: #f8f8f8;
+        }
+        .search-bar {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .search-bar input {
+            flex: 1;
+            border: none;
+            outline: none;
+            padding: 5px;
+        }
+        .search-bar button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .search-bar button img {
+            width: 20px;
+            height: 20px;
+        }
+        .search-results {
+            margin-top: 20px;
+        }
+        .product-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .product-item img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        .product-details {
+            flex: 1;
+        }
+        .product-name {
+            font-weight: bold;
+        }
+        .product-price {
+            color: green;
+        }
+        .filters {
+            margin-top: 20px;
+        }
+        .filter {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+            <button>
+                <img src="https://icon-library.com/images/search-icon-white/search-icon-white-10.jpg" alt="Search">
+            </button>
+        </div>
+    </header>
+    <div class="filters">
+        <div class="filter">
+            <label for="category">Category:</label>
+            <select id="category">
+                <option value="all">All</option>
+                <option value="electronics">Electronics</option>
+                <option value="fashion">Fashion</option>
+                <option value="home">Home</option>
+            </select>
+        </div>
+        <div class="filter">
+            <label for="price">Price Range:</label>
+            <input type="range" id="price" min="0" max="1000">
+        </div>
+        <div class="filter">
+            <label for="rating">Ratings:</label>
+            <select id="rating">
+                <option value="all">All</option>
+                <option value="4">4 stars & up</option>
+                <option value="3">3 stars & up</option>
+                <option value="2">2 stars & up</option>
+                <option value="1">1 star & up</option>
+            </select>
+        </div>
+        <div class="filter">
+            <label for="brand">Brand:</label>
+            <select id="brand">
+                <option value="all">All</option>
+                <option value="brand1">Brand 1</option>
+                <option value="brand2">Brand 2</option>
+                <option value="brand3">Brand 3</option>
+            </select>
+        </div>
+    </div>
+    <div class="search-results">
+        <div class="product-item">
+            <img src="https://via.placeholder.com/50" alt="Product Image">
+            <div class="product-details">
+                <div class="product-name">Product Name</div>
+                <div class="product-price">$99.99</div>
+                <div class="product-description">Brief description of the product.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
