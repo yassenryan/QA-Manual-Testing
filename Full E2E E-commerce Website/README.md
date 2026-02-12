@@ -1,87 +1,129 @@
+<div align="center">
+
 # 🧪 SauceDemo – Manual Testing Project
 
 ![Manual Testing](https://img.shields.io/badge/Testing-Manual-blue)
-![QA Project](https://img.shields.io/badge/Type-QA%20Portfolio-green)
+![QA Portfolio](https://img.shields.io/badge/Project-QA%20Portfolio-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Platform](https://img.shields.io/badge/System-eCommerce-orange)
+
+**Authentication • Cart Management • Checkout Flow • Session Validation**
+
+</div>
 
 ---
 
-## 📌 Overview
-This is a **self-assigned manual testing project** for the [SauceDemo](https://www.saucedemo.com) eCommerce demo website.
+## 📌 Project Overview
 
-The project demonstrates how application behavior is analyzed and converted into **structured manual test cases** following QA best practices.
+This is a **self-assigned Manual Testing project** conducted on the  
+[SauceDemo eCommerce Website](https://www.saucedemo.com).
 
-The focus is on:
-- Clear requirement understanding
-- Logical test design
-- Expected vs Actual result validation
-- Real QA thinking
+The objective of this project is to demonstrate:
+
+- ✅ Clear requirement understanding  
+- ✅ Structured manual test case design  
+- ✅ Functional validation of core user flows  
+- ✅ Expected vs Actual result documentation  
+- ✅ Real-world QA analytical thinking  
 
 ---
 
 ## 👤 User Story
-As a user, I want to **log in, browse products, add items to my cart, and complete checkout**, so that I can successfully place an order online.
+
+> **As a user,**  
+> I want to log in, browse products, add items to my cart, and complete checkout,  
+> So that I can successfully place an order online.
 
 ---
 
 ## 🎯 Scope of Testing
+
 The following modules were covered:
 
-- 🔐 Login validation & authentication
-- 🛍 Product inventory & filtering
-- 🛒 Cart management (add / remove / multiple items)
-- 💳 Checkout process validation
-- 🔄 Session management (Logout & Reset App State)
+- 🔐 Login validation & authentication  
+- 🛍 Product inventory display & filtering  
+- 🛒 Cart management (Add / Remove / Multiple items)  
+- 💳 Checkout process validation  
+- 🔄 Session management (Logout & Reset App State)  
 
 ---
 
 ## ✅ Acceptance Criteria Covered
-- Login fields validate empty and invalid inputs  
-- Proper error messages are displayed for incorrect credentials  
-- Successful login redirects to the inventory page  
-- Products display correct name, price, and description  
-- Cart updates correctly when items are added or removed  
-- Checkout requires valid First Name, Last Name, and ZIP Code  
-- Cancel buttons redirect correctly  
-- Finish button completes the order successfully  
+
+- Login fields validate empty & invalid inputs  
+- Proper error messages display for incorrect credentials  
+- Successful login redirects to Inventory page  
+- Products display correct:
+  - Name  
+  - Price  
+  - Description  
+- Cart updates correctly when items are added/removed  
+- Checkout requires:
+  - First Name  
+  - Last Name  
+  - ZIP Code  
+- Cancel buttons redirect properly  
+- Finish button completes order successfully  
 - Reset App State clears cart and restores default state  
-- Logout redirects user to login page  
+- Logout redirects user to Login page  
 
 ---
 
-## 📂 Test Artifacts
-This project includes:
+## 📝 Test Coverage Highlights
 
-- 📊 **Manual Test Cases (Excel)**
-- 📝 **Structured Test Steps**
-- 🔍 **Expected vs Actual Results**
-- 📸 Optional execution screenshots
+- Login positive & negative scenarios  
+- Empty input validation  
+- Invalid credentials handling  
+- Add single & multiple products to cart  
+- Remove items from cart  
+- Checkout validation (mandatory fields)  
+- Order completion flow  
+- Session reset validation  
+- Logout flow validation  
 
 ---
 
 ## 🧠 Testing Types Applied
-- Functional Testing  
-- Positive Test Scenarios  
-- Negative Test Scenarios  
-- Input Validation & Boundary Checks  
-- Session & State Management Testing  
-- Basic Usability Considerations  
+
+- 🔹 Functional Testing  
+- 🔹 Positive Testing  
+- 🔹 Negative Testing  
+- 🔹 Boundary & Input Validation  
+- 🔹 Session & State Management Testing  
+- 🔹 Basic Usability Testing  
 
 ---
 
-## 🛠 Tools Used
+## 📂 Test Artifacts
+
+| Artifact | Description |
+|----------|------------|
+| 📊 Manual Test Cases | Documented in Excel |
+| 📝 Test Steps | Structured execution steps |
+| 🔍 Expected vs Actual | Validation documentation |
+| 📸 Screenshots | Optional execution evidence |
+
+---
+
+## 🛠 Tools & Environment
+
 - **Excel** – Test case documentation  
 - **Web Browser** – Manual execution  
-- **GitHub** – Version control & portfolio showcase  
+- **Git & GitHub** – Version control & portfolio showcase  
 
 ---
 
 ## 📎 Notes
-- This is a **practice portfolio project**.  
-- No real production system or sensitive data was used.  
-- The project focuses on **manual test design**, not automation.
+
+- This is a **QA portfolio practice project**.  
+- SauceDemo is a public demo application used for learning.  
+- No sensitive or production data was involved.  
+- Focus is on **manual test design and requirement coverage**, not automation.  
 
 ---
 
-### 👨‍💻 Author
-Created as part of my QA learning journey and portfolio development.
+<div align="center">
+
+### 🚀 Part of my ongoing QA learning journey and portfolio development.
+
+</div>
