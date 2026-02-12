@@ -1,92 +1,95 @@
 # 🔎 Product Search – Manual Testing Project
 
-## 📌 Project Overview
-This is a **self-assigned Manual Testing project** for the **Product Search feature** of an eCommerce website.
+![Manual Testing](https://img.shields.io/badge/Testing-Manual-blue)
+![QA Project](https://img.shields.io/badge/Type-QA%20Portfolio-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-The goal of this project is to demonstrate:
-- Requirement analysis
-- Writing structured manual test cases
-- Applying Boundary Value Analysis
-- Positive & Negative testing
-- Functional test coverage based on Acceptance Criteria
+---
+
+## 📌 Overview
+This is a **self-assigned manual testing project** for the **Product Search feature** of an eCommerce website.
+
+The project demonstrates how requirements and acceptance criteria are analyzed and translated into **structured manual test cases** using standard QA methodologies.
+
+The focus is on:
+- Requirement analysis  
+- Logical test case design  
+- Input validation and boundary checks  
+- Functional coverage based on Acceptance Criteria  
 
 ---
 
 ## 👤 User Story
-
-**As a user,**  
-I want to search for products using keywords,  
-So that I can quickly find the items I am interested in.
+As a user, I want to search for products using keywords, so that I can quickly find the items I am interested in.
 
 ---
 
-## ✅ Acceptance Criteria
+## 🎯 Scope of Testing
+The following areas were covered:
 
-- The search bar should be prominently placed and visible on any page.
-- The search bar should allow entry of at least 50 characters.
-- Search should be initiated when:
-  - Pressing the **Enter** key
-  - Clicking the **Search** button
-- Search results should display matching products.
-- If no products match:
-  - Show **"No products found"**
-  - Display related suggestions.
-- Each product result should show:
-  - Product name
-  - Price
-  - Thumbnail image
-  - Brief description
-- Clicking a product navigates to the product detail page.
-- Users can filter results by:
-  - Category
-  - Price range
-  - Ratings
-  - Brand
-- Logged-in users should have search history saved.
+- 🔎 Search bar visibility and accessibility  
+- ⌨️ Search input validation  
+- 📊 Search results display  
+- 🧩 Filter functionality (Category, Price, Ratings, Brand)  
+- 🕘 Search history (Logged-in vs Guest users)  
+- 🖥 UI verification of results layout  
 
 ---
 
-## 🧪 Scope of Testing
-
-The following types of testing were applied:
-
-- Functional Testing
-- Boundary Value Analysis
-- Negative Testing
-- Input Validation Testing
-- UI Verification Testing
-
----
-
-## 📝 Test Scenarios Covered
-
-1. Verify presence of search bar
-2. Boundary testing (Below minimum, At minimum, Above minimum)
-3. Valid keyword search
-4. No product found scenario
-5. Search result UI verification
-6. Navigation to product details page
-7. Filter functionality
-8. Search history for logged-in users
-9. Guest user search history validation
-10. Empty input
-11. Spaces-only input
-12. Numeric-only input
-13. Special character input
+## ✅ Acceptance Criteria Covered
+- Search bar is visible and accessible on all pages  
+- Supports minimum 50 characters input  
+- Search triggers via **Enter key** or **Search button**  
+- Matching products are displayed correctly  
+- "No products found" message appears when applicable  
+- Related suggestions are displayed  
+- Each result shows name, price, image, and description  
+- Clicking a product navigates to product details page  
+- Users can filter results by category, price, rating, and brand  
+- Logged-in users have search history saved  
 
 ---
 
-## 🧠 Test Design Techniques Used
-
-- Boundary Value Analysis (BVA)
-- Positive & Negative Testing
-- Equivalence Partitioning (for input types)
-- UI Validation
+## 🧪 Testing Types Applied
+- Functional Testing  
+- Positive Test Scenarios  
+- Negative Test Scenarios  
+- Boundary Value Analysis (BVA)  
+- Equivalence Partitioning  
+- Input Validation Testing  
+- UI Verification Testing  
 
 ---
 
-## 🛠 Technologies Used (Demo Implementation)
+## 📝 Key Test Scenarios
+- Verify search bar presence  
+- Boundary testing (Below / At / Above limits)  
+- Valid keyword search  
+- No results scenario  
+- Search result UI validation  
+- Product navigation verification  
+- Filter functionality validation  
+- Search history behavior (Logged-in vs Guest)  
+- Empty input  
+- Spaces-only input  
+- Numeric-only input  
+- Special character input  
 
-- HTML
-- CSS
-- JavaScript
+---
+
+## 🛠 Tools Used
+- Excel – Test case documentation  
+- HTML / CSS / JavaScript – Demo implementation  
+- GitHub – Version control & portfolio showcase  
+
+---
+
+## 📎 Notes
+- This is a **portfolio practice project**.  
+- No real production system or user data was used.  
+- The focus is on **manual test design and requirement coverage**, not automation.
+
+---
+
+### 👨‍💻 Author
+Created as part of my QA learning journey and portfolio development.
