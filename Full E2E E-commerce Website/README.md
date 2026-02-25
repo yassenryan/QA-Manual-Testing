@@ -101,7 +101,6 @@ The following modules were covered:
 | 📊 Manual Test Cases | Documented in Excel |
 | 📝 Test Steps | Structured execution steps |
 | 🔍 Expected vs Actual | Validation documentation |
-| 📸 Screenshots | Optional execution evidence |
 
 ---
 
