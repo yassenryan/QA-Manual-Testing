@@ -1,160 +1,94 @@
 <div align="center">
 
-# 🧪 Banking System – Manual Testing Project
+# 🧪 New Customer Module – Manual Testing Project
 
 ![Manual Testing](https://img.shields.io/badge/Testing-Manual-blue)
-![QA Project](https://img.shields.io/badge/Project-Banking%20System-green)
+![QA Project](https://img.shields.io/badge/Project-New%20Customer-green)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
 ![ISTQB](https://img.shields.io/badge/ISTQB-CTFL%20Aligned-success)
 
-**Requirement Analysis • Test Case Design • Validation Testing • Security Testing**
+**Requirement Analysis • Test Case Design • Input Validation Testing • Functional Testing**
 
 </div>
 
 ---
 
-# 📌 Overview
+## 📌 Overview
 
-This project demonstrates **Manual Testing practices** applied to a **Banking System Web Application** using a provided **Software Requirements Specification (SRS)**.
+This project focuses on testing the **New Customer / New Account module** based on a given **Software Requirements Specification (SRS)**.
 
-The objective is to analyze requirements, design test cases, and validate system behavior through **input validation, functional testing, and negative testing scenarios**.
+The objective is to analyze the requirements and design **manual test cases** to verify that the system correctly validates user inputs and behaves according to the defined rules.
 
-The project focuses on ensuring that system input fields correctly handle **valid and invalid data**, preventing incorrect or malicious input from affecting the application.
+All test cases aim to verify **input validation, business rules, and system responses** for both valid and invalid inputs.
 
 ---
 
-# 🎯 Objectives
+## 🎯 Objectives
 
-- Convert **SRS requirements** into structured manual test cases
-- Validate system behavior against defined requirements
+- Convert **SRS requirements** into structured **manual test cases**
+- Validate system behavior against defined **functional rules**
 - Apply **positive and negative testing techniques**
 - Practice **real-world QA documentation**
-- Improve skills in **requirement analysis and validation testing**
+- Strengthen **requirement analysis skills**
 
 ---
 
-# 📋 Scope of Testing
-
-The following modules are currently covered:
-
-### 🧾 New Account Module
-- Customer ID validation
-- Required field validation
-- Character restrictions
-- Space handling
-- Copy-paste validation
-- SQL Injection attempt handling
-- Input format validation
-
-### 👤 New Customer Module
-Tested fields include:
-
-- Customer Name
-- Address
-- City
-- State
-- PIN
-- Telephone Number
-- Email
-
-Validation scenarios include:
-
-- Required field validation
-- Special character restrictions
-- Numeric restrictions
-- Leading space validation
-- Valid input acceptance
-
-### 💰 Balance Enquiry Module
-- Account Number validation
-- Required field validation
-- Character and special character restrictions
-- Reset button behavior
-
-### 📊 Customized Statement Module
-- Account Number validation
-- Amount Lower Limit validation
-- Number of Transactions validation
-- Numeric input validation
-- Negative value testing
-- Reset button behavior
-
----
-
-# 🧪 Testing Techniques Used
+## 🧪 Testing Techniques Used
 
 - **Equivalence Partitioning**
 - **Boundary Value Analysis (BVA)**
 - **Positive Testing**
 - **Negative Testing**
 - **Input Validation Testing**
-- **Basic Security Testing (SQL Injection attempts)**
+- **Basic Security Testing**
 
 ---
 
-# 📂 Project Structure
+## 📂 Test Case Structure
 
-
-Manual-Testing/
-│
-├── Test Cases
-│ ├── New Account
-│ ├── New Customer
-│ ├── Balance Enquiry
-│ └── Customized Statement
-│
-├── SRS
-│ └── Software Requirement Specification
-│
-└── README.md
-
-
----
-
-# 🧪 Test Case Format
-
-Each test case includes:
+Each test case contains the following fields:
 
 - **Test Suite**
 - **Test Case ID**
-- **Title**
-- **Pre-conditions**
+- **Test Scenario / Title**
+- **Preconditions**
+- **Test Steps**
 - **Test Data**
-- **Steps to Execute**
 - **Expected Result**
 - **Actual Result**
-- **Pass / Fail Status**
+- **Status (Pass / Fail)**
 
 ---
 
-# 🛠 Tools Used
+## 🛠 Tools Used
 
-- **Microsoft Excel** – Writing and organizing test cases
+- **Microsoft Excel** – Creating and organizing test cases
 - **Git** – Version control
-- **GitHub** – Project hosting and portfolio showcase
+- **GitHub** – Portfolio and project hosting
 
 ---
 
-# 🚧 Project Status
+## 🚧 Project Status
 
 🔄 **In Progress**
 
-This project is being expanded progressively as more requirements from the SRS are analyzed.  
-Additional modules and test scenarios will be added.
+The project is being developed gradually while analyzing the **SRS document** and creating test cases for each field in the module.
+
+More **validation scenarios, boundary cases, and edge cases** will be added as testing progresses.
 
 ---
 
-# 📎 Notes
+## 📎 Notes
 
-- This is a **practice QA project based on a sample SRS**
-- No real production system or company data is used
-- The focus is strictly on **Manual Testing practices**
-- Automation testing may be added in future iterations
+- This project is created for **QA learning and practice purposes**
+- The requirements are based on a **sample SRS**
+- No real company or production system is involved
+- Focus is currently on **Manual Testing only (Automation may be added later)**
 
 ---
 
 <div align="center">
 
-### 🚀 This project demonstrates practical QA testing skills and continuous learning.
+### 🚀 Continuous learning through hands-on QA practice
 
 </div>
