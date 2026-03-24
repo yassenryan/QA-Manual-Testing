@@ -15,7 +15,7 @@
 
 ## 📌 Overview
 
-This project focuses on testing the **New Customer / New Account module** based on a given **Software Requirements Specification (SRS)**.
+This project focuses on testing the **Software Requirements Specification (SRS)**.
 
 The objective is to analyze the requirements and design **manual test cases** to verify that the system correctly validates user inputs and behaves according to the defined rules.
 
