@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 # 🧪 New Customer Module – Manual Testing Project
